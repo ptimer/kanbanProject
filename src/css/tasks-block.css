@@ -1,0 +1,8 @@
+.tasks-block__item{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.addBlock{
+	max-height: 350px;
+}
