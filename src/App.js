@@ -7,6 +7,7 @@ import Header from './components/Header';
 import TasksBlock from './components/TasksBlock';
 import CreateTaskBlock from './components/CreateTaskBlock';
 import CreateTask from './components/CreateTask';
+import EditTask from './components/EditTask';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       }
       <CreateTaskBlock />
       <CreateTask />
+      <EditTask />
 
 
     </div>

@@ -25,7 +25,7 @@ function TasksBlock({ ids, tasksBlocks, setParentCurrentId, tasksIds, tasks }){
                           {
                             tasksIds.map(id => ({...tasks[id], id}))
                             .filter(task => task.parentTaskBlock === block.id)
-                            .map(task => <Task key={task.id} title={task.title} />)
+                            .map(task => <Task key={task.id} id={task.id} title={task.title} />)
                           }
 
                           </div>

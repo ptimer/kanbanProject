@@ -1,4 +1,8 @@
-import { ADD_TASK_BLOCK, ADD_TASK, SET_PARENT_CURRENT_ID } from "./actionTypes";
+import { ADD_TASK_BLOCK, 
+         ADD_TASK, 
+         SET_PARENT_CURRENT_ID,
+         EDIT_TASK,
+         SET_EDIT_TASK_ID } from "./actionTypes";
 
 let nextBlockId = 0;
 let nextTaskId = 0;
@@ -20,8 +24,23 @@ export const addTask = content => ({
   }
 });
 
+export const editTask = content => ({
+  type: EDIT_TASK,
+  payload: {
+    id: content.id,
+    title: content.title,
+  }
+});
+
 export const setParentCurrentId = content => ({
   type: SET_PARENT_CURRENT_ID,
+  payload: {
+    id: content
+  }
+});
+
+export const setEditTaskId = content => ({
+  type: SET_EDIT_TASK_ID,
   payload: {
     id: content
   }
