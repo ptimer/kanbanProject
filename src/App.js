@@ -14,7 +14,7 @@ function App() {
       <Header/>
 
       <div className="row dashboard container">
-          <h3 className="dashboard__title col-12 "> <span class="badge">Разработка Kanban проекта</span></h3>
+          <h3 className="dashboard__title col-12 "> <span className="badge">Разработка Kanban проекта</span></h3>
 
           <TasksBlock />
       </div>
