@@ -6,6 +6,7 @@ import './css/tasks-block.css';
 import Header from './components/Header';
 import TasksBlock from './components/TasksBlock';
 import CreateTaskBlock from './components/CreateTaskBlock';
+import CreateTask from './components/CreateTask';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         // modals windows 
       }
       <CreateTaskBlock />
+      <CreateTask />
 
 
     </div>
