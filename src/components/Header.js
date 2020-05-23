@@ -5,7 +5,7 @@ function Header() {
       <header className="col-12 website__header">
            <nav className="border split-nav">
               <div className="nav-brand">
-                <h3><a href="#">TheEndIsCloser</a></h3>
+                <h3><a href="#">TheEndIsCloser 😈</a></h3>
               </div>
               <div className="collapsible">
                 <input id="collapsible1" type="checkbox" name="collapsible1"/>

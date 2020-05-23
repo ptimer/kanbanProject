@@ -1,8 +1,8 @@
 import { ADD_TASK_BLOCK } from "../actionTypes";
 
 const initialState = {
-  ids: [],
-  blocks: {}
+  ids: [1,2],
+  blocks: {[1]: {title: "gavno"}, [2]: {title: "hume"}}
 }
 
 export default function(state = initialState, action) {

@@ -6,3 +6,7 @@
 .addBlock{
 	max-height: 350px;
 }
+
+.red{
+	background: red;
+}
